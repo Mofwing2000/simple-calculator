@@ -1,4 +1,4 @@
-import React, { memo } from 'react';
+import React from 'react';
 
 const Button = (props) => {
     console.log('re-render');
@@ -27,4 +27,4 @@ const Button = (props) => {
     );
 };
 
-export default memo(Button);
+export default Button;
